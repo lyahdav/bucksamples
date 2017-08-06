@@ -1,0 +1,448 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E7A30F040F82B53500000000 /* Default-736h.png in Resources */ = {isa = PBXBuildFile; fileRef = 1DD70E290F82B53500000000 /* Default-736h.png */; };
+		E7A30F0437375B6D00000000 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DD70E2937375B6D00000000 /* XCTest.framework */; };
+		E7A30F0446DE816D00000000 /* libReact.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DD70E2946DE816D00000000 /* libReact.a */; };
+		E7A30F04480912B800000000 /* Default-667h.png in Resources */ = {isa = PBXBuildFile; fileRef = 1DD70E29480912B800000000 /* Default-667h.png */; };
+		E7A30F046F9DE04800000000 /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1DD70E296F9DE04800000000 /* Icon@2x.png */; };
+		E7A30F04856440A900000000 /* Icon-60.png in Resources */ = {isa = PBXBuildFile; fileRef = 1DD70E29856440A900000000 /* Icon-60.png */; };
+		E7A30F048735484A00000000 /* Icon-72.png in Resources */ = {isa = PBXBuildFile; fileRef = 1DD70E298735484A00000000 /* Icon-72.png */; };
+		E7A30F048E66693D00000000 /* iTunesArtwork.png in Resources */ = {isa = PBXBuildFile; fileRef = 1DD70E298E66693D00000000 /* iTunesArtwork.png */; };
+		E7A30F048E8919BF00000000 /* iTunesArtwork@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1DD70E298E8919BF00000000 /* iTunesArtwork@2x.png */; };
+		E7A30F049070556C00000000 /* Icon-Small-50@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1DD70E299070556C00000000 /* Icon-Small-50@2x.png */; };
+		E7A30F0491D9389400000000 /* BuckDemoAppTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DD70E2991D9389400000000 /* BuckDemoAppTest.m */; };
+		E7A30F04A05FC39200000000 /* Icon-72@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1DD70E29A05FC39200000000 /* Icon-72@2x.png */; };
+		E7A30F04A99F94B000000000 /* Icon-Small-50.png in Resources */ = {isa = PBXBuildFile; fileRef = 1DD70E29A99F94B000000000 /* Icon-Small-50.png */; };
+		E7A30F04AE317AA300000000 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DD70E29AE317AA300000000 /* Foundation.framework */; };
+		E7A30F04AE317AA300000001 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DD70E29AE317AA300000000 /* Foundation.framework */; };
+		E7A30F04BF88817800000000 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DD70E29BF88817800000000 /* main.m */; };
+		E7A30F04C3B9C6B200000000 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DD70E29C3B9C6B200000000 /* UIKit.framework */; };
+		E7A30F04C3B9C6B200000001 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DD70E29C3B9C6B200000000 /* UIKit.framework */; };
+		E7A30F04C98DD60100000000 /* AppViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DD70E29C98DD60100000000 /* AppViewController.m */; };
+		E7A30F04D346A02000000000 /* libhello.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DD70E29D346A02000000000 /* libhello.a */; };
+		E7A30F04D7CD575400000000 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 1DD70E29D7CD575400000000 /* Icon.png */; };
+		E7A30F04DAB1A72500000000 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DD70E29DAB1A72500000000 /* AppDelegate.m */; };
+		E7A30F04E1DCBE7800000000 /* Default-568h.png in Resources */ = {isa = PBXBuildFile; fileRef = 1DD70E29E1DCBE7800000000 /* Default-568h.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9F0FFAE0313F30AC00000000 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 96C847930001980D00000000 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E66DC04E89D024A300000000;
+			remoteInfo = BuckDemoApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		FAF5FAC90000000000000000 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 0;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		1DD70E29001F47FB00000000 /* BUCK */ = {isa = PBXFileReference; explicitFileType = text.script.python; path = BUCK; sourceTree = SOURCE_ROOT; };
+		1DD70E29001F47FB00000001 /* BUCK */ = {isa = PBXFileReference; explicitFileType = text.script.python; path = BUCK; sourceTree = SOURCE_ROOT; };
+		1DD70E2906C06BEE00000000 /* Info.plist */ = {isa = PBXFileReference; explicitFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		1DD70E290F82B53500000000 /* Default-736h.png */ = {isa = PBXFileReference; explicitFileType = image.png; path = "Default-736h.png"; sourceTree = SOURCE_ROOT; };
+		1DD70E2915D2530C00000000 /* BuckDemoAppTest-Release.xcconfig */ = {isa = PBXFileReference; explicitFileType = text.xcconfig; name = "BuckDemoAppTest-Release.xcconfig"; path = "../buck-out/gen/ios/BuckDemoAppTest-Release.xcconfig"; sourceTree = SOURCE_ROOT; };
+		1DD70E29262D7E5600000000 /* BuckDemoApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; path = BuckDemoApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DD70E2937375B6D00000000 /* XCTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; name = XCTest.framework; path = Developer/Library/Frameworks/XCTest.framework; sourceTree = PLATFORM_DIR; };
+		1DD70E2946DE816D00000000 /* libReact.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libReact.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DD70E29480912B800000000 /* Default-667h.png */ = {isa = PBXFileReference; explicitFileType = image.png; path = "Default-667h.png"; sourceTree = SOURCE_ROOT; };
+		1DD70E295225AE3600000000 /* BuckDemoAppTest.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; path = BuckDemoAppTest.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DD70E2964A0204000000000 /* BuckDemoAppTest-Debug.xcconfig */ = {isa = PBXFileReference; explicitFileType = text.xcconfig; name = "BuckDemoAppTest-Debug.xcconfig"; path = "../buck-out/gen/ios/BuckDemoAppTest-Debug.xcconfig"; sourceTree = SOURCE_ROOT; };
+		1DD70E2965A559B200000000 /* BuckDemoApp-Debug.xcconfig */ = {isa = PBXFileReference; explicitFileType = text.xcconfig; name = "BuckDemoApp-Debug.xcconfig"; path = "../buck-out/gen/ios/BuckDemoApp-Debug.xcconfig"; sourceTree = SOURCE_ROOT; };
+		1DD70E296F9DE04800000000 /* Icon@2x.png */ = {isa = PBXFileReference; explicitFileType = image.png; path = "Icon@2x.png"; sourceTree = SOURCE_ROOT; };
+		1DD70E2976D84C9C00000000 /* BuckDemoApp-Profile.xcconfig */ = {isa = PBXFileReference; explicitFileType = text.xcconfig; name = "BuckDemoApp-Profile.xcconfig"; path = "../buck-out/gen/ios/BuckDemoApp-Profile.xcconfig"; sourceTree = SOURCE_ROOT; };
+		1DD70E29856440A900000000 /* Icon-60.png */ = {isa = PBXFileReference; explicitFileType = image.png; path = "Icon-60.png"; sourceTree = SOURCE_ROOT; };
+		1DD70E298735484A00000000 /* Icon-72.png */ = {isa = PBXFileReference; explicitFileType = image.png; path = "Icon-72.png"; sourceTree = SOURCE_ROOT; };
+		1DD70E298E66693D00000000 /* iTunesArtwork.png */ = {isa = PBXFileReference; explicitFileType = image.png; path = iTunesArtwork.png; sourceTree = SOURCE_ROOT; };
+		1DD70E298E8919BF00000000 /* iTunesArtwork@2x.png */ = {isa = PBXFileReference; explicitFileType = image.png; path = "iTunesArtwork@2x.png"; sourceTree = SOURCE_ROOT; };
+		1DD70E299070556C00000000 /* Icon-Small-50@2x.png */ = {isa = PBXFileReference; explicitFileType = image.png; path = "Icon-Small-50@2x.png"; sourceTree = SOURCE_ROOT; };
+		1DD70E2991D9389400000000 /* BuckDemoAppTest.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.objc; name = BuckDemoAppTest.m; path = tests/BuckDemoAppTest.m; sourceTree = SOURCE_ROOT; };
+		1DD70E299E6ED0D200000000 /* Test.plist */ = {isa = PBXFileReference; explicitFileType = text.plist; name = Test.plist; path = tests/Test.plist; sourceTree = "<group>"; };
+		1DD70E29A05FC39200000000 /* Icon-72@2x.png */ = {isa = PBXFileReference; explicitFileType = image.png; path = "Icon-72@2x.png"; sourceTree = SOURCE_ROOT; };
+		1DD70E29A23BA7AA00000000 /* BuckDemoAppTest-Profile.xcconfig */ = {isa = PBXFileReference; explicitFileType = text.xcconfig; name = "BuckDemoAppTest-Profile.xcconfig"; path = "../buck-out/gen/ios/BuckDemoAppTest-Profile.xcconfig"; sourceTree = SOURCE_ROOT; };
+		1DD70E29A99F94B000000000 /* Icon-Small-50.png */ = {isa = PBXFileReference; explicitFileType = image.png; path = "Icon-Small-50.png"; sourceTree = SOURCE_ROOT; };
+		1DD70E29AE317AA300000000 /* Foundation.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1DD70E29BF88817800000000 /* main.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.objc; path = main.m; sourceTree = SOURCE_ROOT; };
+		1DD70E29C3B9C6B200000000 /* UIKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		1DD70E29C98DD5FC00000000 /* AppViewController.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; path = AppViewController.h; sourceTree = SOURCE_ROOT; };
+		1DD70E29C98DD60100000000 /* AppViewController.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.objc; path = AppViewController.m; sourceTree = SOURCE_ROOT; };
+		1DD70E29D346A02000000000 /* libhello.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libhello.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DD70E29D7CD575400000000 /* Icon.png */ = {isa = PBXFileReference; explicitFileType = image.png; path = Icon.png; sourceTree = SOURCE_ROOT; };
+		1DD70E29DAB1A72000000000 /* AppDelegate.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = SOURCE_ROOT; };
+		1DD70E29DAB1A72500000000 /* AppDelegate.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = SOURCE_ROOT; };
+		1DD70E29E1DCBE7800000000 /* Default-568h.png */ = {isa = PBXFileReference; explicitFileType = image.png; path = "Default-568h.png"; sourceTree = SOURCE_ROOT; };
+		1DD70E29EA6EF7FE00000000 /* BuckDemoApp-Release.xcconfig */ = {isa = PBXFileReference; explicitFileType = text.xcconfig; name = "BuckDemoApp-Release.xcconfig"; path = "../buck-out/gen/ios/BuckDemoApp-Release.xcconfig"; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4F426D880000000000000000 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 0;
+			files = (
+				E7A30F04AE317AA300000000 /* Foundation.framework in Frameworks */,
+				E7A30F04C3B9C6B200000000 /* UIKit.framework in Frameworks */,
+				E7A30F04D346A02000000000 /* libhello.a in Frameworks */,
+				E7A30F0446DE816D00000000 /* libReact.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4F426D880000000000000001 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 0;
+			files = (
+				E7A30F0437375B6D00000000 /* XCTest.framework in Frameworks */,
+				E7A30F04AE317AA300000001 /* Foundation.framework in Frameworks */,
+				E7A30F04C3B9C6B200000001 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B401C979013EDE0500000000 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				1DD70E29E1DCBE7800000000 /* Default-568h.png */,
+				1DD70E29480912B800000000 /* Default-667h.png */,
+				1DD70E290F82B53500000000 /* Default-736h.png */,
+				1DD70E29856440A900000000 /* Icon-60.png */,
+				1DD70E298735484A00000000 /* Icon-72.png */,
+				1DD70E29A05FC39200000000 /* Icon-72@2x.png */,
+				1DD70E29A99F94B000000000 /* Icon-Small-50.png */,
+				1DD70E299070556C00000000 /* Icon-Small-50@2x.png */,
+				1DD70E29D7CD575400000000 /* Icon.png */,
+				1DD70E296F9DE04800000000 /* Icon@2x.png */,
+				1DD70E298E66693D00000000 /* iTunesArtwork.png */,
+				1DD70E298E8919BF00000000 /* iTunesArtwork@2x.png */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		B401C979263ED3D500000000 /* BuckDemoAppTest */ = {
+			isa = PBXGroup;
+			children = (
+				1DD70E29001F47FB00000001 /* BUCK */,
+				B401C979EAB5339800000001 /* Sources */,
+			);
+			name = BuckDemoAppTest;
+			sourceTree = "<group>";
+		};
+		B401C9792F7F325000000000 /* Buck (Do Not Modify) */ = {
+			isa = PBXGroup;
+			children = (
+				1DD70E2965A559B200000000 /* BuckDemoApp-Debug.xcconfig */,
+				1DD70E2976D84C9C00000000 /* BuckDemoApp-Profile.xcconfig */,
+				1DD70E29EA6EF7FE00000000 /* BuckDemoApp-Release.xcconfig */,
+				1DD70E2964A0204000000000 /* BuckDemoAppTest-Debug.xcconfig */,
+				1DD70E29A23BA7AA00000000 /* BuckDemoAppTest-Profile.xcconfig */,
+				1DD70E2915D2530C00000000 /* BuckDemoAppTest-Release.xcconfig */,
+			);
+			name = "Buck (Do Not Modify)";
+			sourceTree = "<group>";
+		};
+		B401C97968022A5500000000 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1DD70E29AE317AA300000000 /* Foundation.framework */,
+				1DD70E29C3B9C6B200000000 /* UIKit.framework */,
+				1DD70E2937375B6D00000000 /* XCTest.framework */,
+				1DD70E2946DE816D00000000 /* libReact.a */,
+				1DD70E29D346A02000000000 /* libhello.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B401C97989D024A300000000 /* BuckDemoApp */ = {
+			isa = PBXGroup;
+			children = (
+				1DD70E29001F47FB00000000 /* BUCK */,
+				B401C979013EDE0500000000 /* Resources */,
+				B401C979EAB5339800000000 /* Sources */,
+			);
+			name = BuckDemoApp;
+			sourceTree = "<group>";
+		};
+		B401C979B781F65D00000000 /* Configurations */ = {
+			isa = PBXGroup;
+			children = (
+				B401C9792F7F325000000000 /* Buck (Do Not Modify) */,
+			);
+			name = Configurations;
+			sourceTree = "<group>";
+		};
+		B401C979C806358400000000 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1DD70E29262D7E5600000000 /* BuckDemoApp.app */,
+				1DD70E295225AE3600000000 /* BuckDemoAppTest.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B401C979EAB5339800000000 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				1DD70E29DAB1A72000000000 /* AppDelegate.h */,
+				1DD70E29DAB1A72500000000 /* AppDelegate.m */,
+				1DD70E29C98DD5FC00000000 /* AppViewController.h */,
+				1DD70E29C98DD60100000000 /* AppViewController.m */,
+				1DD70E29BF88817800000000 /* main.m */,
+				1DD70E2906C06BEE00000000 /* Info.plist */,
+			);
+			name = Sources;
+			sourceTree = "<group>";
+		};
+		B401C979EAB5339800000001 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				1DD70E2991D9389400000000 /* BuckDemoAppTest.m */,
+				1DD70E299E6ED0D200000000 /* Test.plist */,
+			);
+			name = Sources;
+			sourceTree = "<group>";
+		};
+		B401C979EFB6AC4600000000 /* mainGroup */ = {
+			isa = PBXGroup;
+			children = (
+				B401C97989D024A300000000 /* BuckDemoApp */,
+				B401C979263ED3D500000000 /* BuckDemoAppTest */,
+				B401C979B781F65D00000000 /* Configurations */,
+				B401C97968022A5500000000 /* Frameworks */,
+				B401C979C806358400000000 /* Products */,
+			);
+			name = mainGroup;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E66DC04E263ED3D500000000 /* BuckDemoAppTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 218C37090000000000000001 /* Build configuration list for PBXNativeTarget "BuckDemoAppTest" */;
+			buildPhases = (
+				1870857F0000000000000001 /* Sources */,
+				4F426D880000000000000001 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3EB28C82313F30AC00000000 /* PBXTargetDependency */,
+			);
+			name = BuckDemoAppTest;
+			productName = BuckDemoAppTest;
+			productReference = 1DD70E295225AE3600000000 /* BuckDemoAppTest.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E66DC04E89D024A300000000 /* BuckDemoApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 218C37090000000000000000 /* Build configuration list for PBXNativeTarget "BuckDemoApp" */;
+			buildPhases = (
+				1870857F0000000000000000 /* Sources */,
+				4F426D880000000000000000 /* Frameworks */,
+				FAF5FAC90000000000000000 /* CopyFiles */,
+				8A032D2C0000000000000000 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BuckDemoApp;
+			productName = BuckDemoApp;
+			productReference = 1DD70E29262D7E5600000000 /* BuckDemoApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		96C847930001980D00000000 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 9999;
+			};
+			buildConfigurationList = 218C37090000000000000002 /* Build configuration list for PBXProject "ios" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = B401C979EFB6AC4600000000 /* mainGroup */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E66DC04E89D024A300000000 /* BuckDemoApp */,
+				E66DC04E263ED3D500000000 /* BuckDemoAppTest */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8A032D2C0000000000000000 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 0;
+			files = (
+				E7A30F04E1DCBE7800000000 /* Default-568h.png in Resources */,
+				E7A30F04480912B800000000 /* Default-667h.png in Resources */,
+				E7A30F040F82B53500000000 /* Default-736h.png in Resources */,
+				E7A30F04856440A900000000 /* Icon-60.png in Resources */,
+				E7A30F048735484A00000000 /* Icon-72.png in Resources */,
+				E7A30F04A05FC39200000000 /* Icon-72@2x.png in Resources */,
+				E7A30F04A99F94B000000000 /* Icon-Small-50.png in Resources */,
+				E7A30F049070556C00000000 /* Icon-Small-50@2x.png in Resources */,
+				E7A30F04D7CD575400000000 /* Icon.png in Resources */,
+				E7A30F046F9DE04800000000 /* Icon@2x.png in Resources */,
+				E7A30F048E66693D00000000 /* iTunesArtwork.png in Resources */,
+				E7A30F048E8919BF00000000 /* iTunesArtwork@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1870857F0000000000000000 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 0;
+			files = (
+				E7A30F04DAB1A72500000000 /* AppDelegate.m in Sources */,
+				E7A30F04C98DD60100000000 /* AppViewController.m in Sources */,
+				E7A30F04BF88817800000000 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1870857F0000000000000001 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 0;
+			files = (
+				E7A30F0491D9389400000000 /* BuckDemoAppTest.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3EB28C82313F30AC00000000 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E66DC04E89D024A300000000 /* BuckDemoApp */;
+			targetProxy = 9F0FFAE0313F30AC00000000 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		4952437303EDA63300000000 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1DD70E2965A559B200000000 /* BuckDemoApp-Debug.xcconfig */;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+			};
+			name = Debug;
+		};
+		4952437303EDA63300000001 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1DD70E2964A0204000000000 /* BuckDemoAppTest-Debug.xcconfig */;
+			buildSettings = {
+			};
+			name = Debug;
+		};
+		4952437303EDA63300000002 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Debug;
+		};
+		4952437350C7218900000000 /* Profile */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1DD70E2976D84C9C00000000 /* BuckDemoApp-Profile.xcconfig */;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+			};
+			name = Profile;
+		};
+		4952437350C7218900000001 /* Profile */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1DD70E29A23BA7AA00000000 /* BuckDemoAppTest-Profile.xcconfig */;
+			buildSettings = {
+			};
+			name = Profile;
+		};
+		4952437350C7218900000002 /* Profile */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Profile;
+		};
+		49524373A439BFE700000000 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1DD70E29EA6EF7FE00000000 /* BuckDemoApp-Release.xcconfig */;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+			};
+			name = Release;
+		};
+		49524373A439BFE700000001 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1DD70E2915D2530C00000000 /* BuckDemoAppTest-Release.xcconfig */;
+			buildSettings = {
+			};
+			name = Release;
+		};
+		49524373A439BFE700000002 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		218C37090000000000000000 /* Build configuration list for PBXNativeTarget "BuckDemoApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4952437303EDA63300000000 /* Debug */,
+				4952437350C7218900000000 /* Profile */,
+				49524373A439BFE700000000 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		218C37090000000000000001 /* Build configuration list for PBXNativeTarget "BuckDemoAppTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4952437303EDA63300000001 /* Debug */,
+				4952437350C7218900000001 /* Profile */,
+				49524373A439BFE700000001 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		218C37090000000000000002 /* Build configuration list for PBXProject "ios" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4952437303EDA63300000002 /* Debug */,
+				4952437350C7218900000002 /* Profile */,
+				49524373A439BFE700000002 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 96C847930001980D00000000 /* Project object */;
+}

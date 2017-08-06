@@ -8,6 +8,9 @@
 
 #import "AppViewController.h"
 
+#import <React/RCTBundleURLProvider.h>
+#import <React/RCTRootView.h>
+
 @interface AppViewController ()
 
 @end
@@ -24,20 +27,17 @@
     return self;
 }
 
-- (void) viewDidLoad {
-    self.view.backgroundColor = [UIColor whiteColor];
-    _label = [[UILabel alloc] initWithFrame:CGRectMake(0.0f, 0.0f, self.view.bounds.size.width, 80.0f)];
-    _label.text = _helloString;
-    _label.textAlignment = NSTextAlignmentCenter;
-    _label.font = [UIFont boldSystemFontOfSize:32.0f];
-    _label.adjustsFontSizeToFitWidth = YES;
-    _label.backgroundColor = [UIColor clearColor];
-    [self.view addSubview:_label];
-}
+- (void)loadView {
+    NSURL *jsCodeLocation;
 
-- (void) viewDidLayoutSubviews {
-    [super viewDidLayoutSubviews];
-    _label.center = CGPointMake(self.view.frame.size.width * 0.5f, self.view.frame.size.height * 0.5f);
+    jsCodeLocation = [[RCTBundleURLProvider sharedSettings] jsBundleURLForBundleRoot:@"index.ios" fallbackResource:nil];
+
+    RCTRootView *rootView = [[RCTRootView alloc] initWithBundleURL:jsCodeLocation
+                                                        moduleName:@"MyReactNativeApp"
+                                                 initialProperties:nil
+                                                     launchOptions:nil];
+    rootView.backgroundColor = [[UIColor alloc] initWithRed:1.0f green:1.0f blue:1.0f alpha:1];
+    self.view = rootView;
 }
 
 @end

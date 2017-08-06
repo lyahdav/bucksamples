@@ -20,7 +20,7 @@ apple_bundle(
 
 apple_binary(
   name = 'BuckDemoAppBinary',
-  deps = [':BuckDemoAppResources', '//common:hello'],
+  deps = [':BuckDemoAppResources', '//common:hello', '//react-native:React'],
   preprocessor_flags = ['-fobjc-arc', '-Wno-objc-designated-initializers'],
   headers = glob([
     '*.h',
@@ -28,6 +28,10 @@ apple_binary(
   srcs = glob([
     '*.m',
   ]),
+  linker_flags = [
+    '-ObjC',
+    '-lc++'
+  ],
   frameworks = [
     '$SDKROOT/System/Library/Frameworks/UIKit.framework',
     '$SDKROOT/System/Library/Frameworks/Foundation.framework',
