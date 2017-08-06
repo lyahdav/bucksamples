@@ -46,7 +46,7 @@ If you are on Windows, you'll want to run:
 To run demo:
 1. `buck project demo_app_ios`
 1. `open ios/BuckDemoApp.xcworkspace`
-1. Workaround: You'll need to change your application's build settings in Xcode so that `Build Active Architecture Only` is set to `Yes`. Not sure of the implications for this for release builds. Be warned.
+1. Workaround: You'll need to change your application's build settings in Xcode so that `Build Active Architecture Only` is set to `Yes`. Not sure of the implications of this for release builds. Be warned.
 1. `npm install` (assumes you have Node installed)
 1. Start React Native packager: `npm start`
 1. Run app.
@@ -60,4 +60,4 @@ Steps for linking React Native:
 1. In your App's `BUCK` file add `'//react-native:React'` to `deps`.
 1. Generate project via `buck project demo_app_ios`.
 1. `open ios/BuckDemoApp.xcworkspace`
-1. Workaround: You'll need to change your application's build settings in Xcode so that `Build Active Architecture Only` is set to `Yes`. Not sure of the implications for this for release builds. Be warned.
+1. Workaround: You'll need to change your application's build settings in Xcode so that `Build Active Architecture Only` is set to `Yes`. Not sure of the implications of this for release builds. Be warned.
