@@ -51,13 +51,14 @@ To run demo:
 1. Start React Native packager: `npm start`
 1. Run app.
 
-Steps for linking React Native:
+Steps for linking React Native into existing iOS project with Buck:
 1. Build an Xcode project created from `react-native init`
 1. Find the DerivedData folder for the project. It will be something like /Users/<your-user>/Library/Developer/Xcode/DerivedData/<some-project>/Build/Products/Debug-iphonesimulator
 1. Copy the `include` folder and all the .a files to your Buck project. You'll find it under the `react-native` folder in this repo.
 1. Workaround: Copy the .a files into a new `ios/react-native` folder. You'll otherwise get otherwise when generating Xcode project via Buck. If anyone knows how to not require this workaround, please let me know.
 1. Create `BUCK` file per `react-native/BUCK` file in this repo. Note the `apple_library` must be named `React` for headers like `<React/...>` to work.
-1. In your App's `BUCK` file add `'//react-native:React'` to `deps`.
+1. In your App's `BUCK` file add `'//react-native:React'` to `deps` in the `apple_binary`.
+1. In your App's `BUCK` file add the following in the `apple_binary`: `  linker_flags = [ '-ObjC', '-lc++' ]`.
 1. Generate project via `buck project demo_app_ios`.
 1. `open ios/BuckDemoApp.xcworkspace`
 1. Workaround: You'll need to change your application's build settings in Xcode so that `Build Active Architecture Only` is set to `Yes`. Not sure of the implications of this for release builds. Be warned.
